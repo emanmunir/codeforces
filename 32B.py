@@ -6,7 +6,7 @@ while haha <= len(a) - 1:
         ans += '0'
         haha += 1
     else:
-        if a[haha + 1] == '.': #just checking
+        if a[haha + 1] == '.':
             ans += '1'
             haha += 2
         else:
